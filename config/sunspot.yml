@@ -1,0 +1,23 @@
+production:
+  solr:
+    hostname: localhost
+    port: 8983
+    log_level: WARNING
+    path: /Users/lylegoff/Downloads/solr-8.0.0/bin/solr
+    # read_timeout: 2
+    # open_timeout: 0.5
+
+development:
+  solr:
+    hostname: localhost
+    port: 8982
+    log_level: INFO
+    path: /Users/lylegoff/Downloads/solr-8.0.0/bin/solr
+
+test:
+  solr:
+    hostname: localhost
+    port: 8981
+    log_level: WARNING
+    path: /Users/lylegoff/Downloads/solr-8.0.0/bin/solr
+    
